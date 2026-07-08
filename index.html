@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>SANCTA TCG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <h1>SANCTA TCG</h1>
+        <input id="search" placeholder="Pesquisar">
+    </header>
+
+    <nav>
+        <button onclick="mostrar('personagens')">Personagens</button>
+        <button onclick="mostrar('virtudes')">Virtudes</button>
+        <button onclick="mostrar('acoes')">Ações</button>
+        <button onclick="mostrar('missoes')">Missões</button>
+        <button onclick="mostrar('decks')">Decks</button>
+        <button onclick="mostrar('regras')">Regras</button>
+    </nav>
+
+    <section id="personagens" class="active">
+        <h2>Ordens Espirituais</h2>
+        <div class="subnav">
+            <button onclick="filtrarPersonagens('todos')">Todos</button>
+            <button onclick="filtrarPersonagens('Intercessores')">Intercessores</button>
+            <button onclick="filtrarPersonagens('Defensores')">Defensores</button>
+            <button onclick="filtrarPersonagens('Missionários')">Missionários</button>
+            <button onclick="filtrarPersonagens('Guias')">Guias</button>
+            <button onclick="filtrarPersonagens('Consagrados')">Consagrados</button>
+        </div>
+        <div class="gallery"></div>
+    </section>
+
+    <section id="virtudes">
+        <h2>Virtudes</h2>
+        <div class="subnav">
+            <button onclick="filtrarVirtudes('todos')">Todas</button>
+            <button onclick="filtrarVirtudes('Teologais')">Teologais</button>
+            <button onclick="filtrarVirtudes('Cardeais')">Cardeais</button>
+            <button onclick="filtrarVirtudes('Espirituais')">Espirituais</button>
+        </div>
+        <div class="gallery"></div>
+    </section>
+
+    <section id="acoes">
+        <h2>Ações Sagradas</h2>
+        <div class="subnav">
+            <button onclick="filtrarAcoes('todos')">Todos</button>
+            <button onclick="filtrarAcoes('Sacramentos')">Sacramentos</button>
+            <button onclick="filtrarAcoes('Milagres')">Milagres</button>
+            <button onclick="filtrarAcoes('Evangelhos')">Evangelhos</button>
+            <button onclick="filtrarAcoes('Vida de Cristo')">Vida de Cristo</button>
+            <button onclick="filtrarAcoes('Mistérios')">Mistérios</button>
+        </div>
+        <div class="gallery"></div>
+    </section>
+
+    <section id="missoes">
+        <h2>Missões de Fé</h2>
+        <div class="gallery"></div>
+    </section>
+
+    <section id="decks">
+        <h2>Decks Oficiais</h2>
+        <div class="gallery" id="listaDecks"></div>
+    </section>
+
+    <section id="regras">
+    <div class="regras-container">
+
+        <aside class="menu-regras">
+
+            <h2>📖 Manual</h2>
+
+            <button onclick="abrirRegra('objetivo')">Objetivo</button>
+            <button onclick="abrirRegra('componentes')">Componentes</button>
+            <button onclick="abrirRegra('cartas')">Tipos de Cartas</button>
+            <button onclick="abrirRegra('ordens')">Ordens</button>
+            <button onclick="abrirRegra('graca')">Graça</button>
+            <button onclick="abrirRegra('efeitos')">Efeitos</button>
+            <button onclick="abrirRegra('turno')">Turno</button>
+            <button onclick="abrirRegra('arremetida')">Arremetida</button>
+            <button onclick="abrirRegra('missoesregra')">Missões</button>
+            <button onclick="abrirRegra('vitoria')">Vitória</button>
+
+        </aside>
+        <div class="conteudo-regras">
+            <div id="objetivo" class="regra active">
+                <h2>Objetivo do Jogo</h2>
+                <p>
+                    O objetivo de Sancta TCG é vencer através da perseverança na fé.
+                </p>
+                <ul>
+                    <li>✔ Complete 3 Missões.</li>
+                    <li>ou</li>
+                    <li>✔ Reduza a Graça do adversário a 0.</li>
+                </ul>
+            </div>
+            <div id="componentes" class="regra">
+                <h2>Componentes</h2>
+                <ul>
+                    <li>30 cartas por deck</li>
+                    <li>20 Missões compartilhadas</li>
+                    <li>Marcadores de Graça</li>
+                    <li>Marcadores de efeitos</li>
+                </ul>
+                <h3>Deck recomendado</h3>
+                <ul>
+                    <li>16 Personagens</li>
+                    <li>8 Ações</li>
+                    <li>6 Virtudes</li>
+                </ul>
+            </div>
+            <div id="cartas" class="regra">
+                <h2>Tipos de Carta</h2>
+                <h3>👤 Personagens</h3>
+                <p>Permanecem em campo.</p>
+                <ul>
+                    <li>TMN = Poder ofensivo</li>
+                    <li>FOR = Resistência</li>
+                    <li>GRA = Custo</li>
+                </ul>
+                <hr>
+                <h3>✨ Virtudes</h3>
+                <ul>
+                    <li>Apenas 1 ativa.</li>
+                    <li>Dão efeitos contínuos.</li>
+                </ul>
+                <hr>
+                <h3>📜 Ações</h3>
+                <ul>
+                    <li>Efeito imediato.</li>
+                    <li>Depois são descartadas.</li>
+                </ul>
+                <hr>
+                <h3>⭐ Missões</h3>
+                <ul>
+                    <li>3 ficam reveladas.</li>
+                    <li>São compartilhadas.</li>
+                </ul>
+            </div>
+            <div id="ordens" class="regra">
+                <h2>Ordens</h2>
+                <ul>
+                    <li>🟡 Intercessores — Cura e suporte.</li>
+                    <li>🔵 Defensores — Proteção.</li>
+                    <li>🔴 Missionários — Ataque.</li>
+                    <li>🟣 Guias — Estratégia.</li>
+                    <li>⚪ Consagrados — Virtudes.</li>
+                </ul>
+            </div>
+            <div id="graca" class="regra">
+                <h2>Graça</h2>
+                <ul>
+                    <li>Começa em 10.</li>
+                    <li>Máximo 25.</li>
+                    <li>Usada para convocar personagens.</li>
+                </ul>
+            </div>
+            <div id="efeitos" class="regra">
+                <h2>Efeitos Positivos</h2>
+                <table>
+                    <tr>
+                        <th>Efeito</th>
+                        <th>Benefício</th>
+                    </tr>
+                    <tr>
+                        <td>Coragem</td>
+                        <td>+1 TMN</td>
+                    </tr>
+                    <tr>
+                        <td>Obediência</td>
+                        <td>+2 FOR</td>
+                    </tr>
+                    <tr>
+                        <td>Dissuasão</td>
+                        <td>Recebe bônus de Virtude</td>
+                    </tr>
+                    <tr>
+                        <td>Fortaleza Espiritual</td>
+                        <td>Pode cumprir Missões sob Fraqueza Espiritual</td>
+                    </tr>
+                    <tr>
+                        <td>Concentração</td>
+                        <td>Efeito adicional</td>
+                    </tr>
+                    <tr>
+                        <td>Ascensão</td>
+                        <td>+2 Graça</td>
+                    </tr>
+                </table>
+                <br>
+                <table>
+                    <tr>
+                        <th>Efeito</th>
+                        <th>Penalidade</th>
+                    </tr>
+                    <tr>
+                        <td>Desânimo</td>
+                        <td>-1 TMN</td>
+                    </tr>
+                    <tr>
+                        <td>Dominação</td>
+                        <td>-2 FOR</td>
+                    </tr>
+                    <tr>
+                        <td>Tentação</td>
+                        <td>Sem bônus de Virtude</td>
+                    </tr>
+                    <tr>
+                        <td>Fraqueza Espiritual</td>
+                        <td>Não realiza Missões</td>
+                    </tr>
+                    <tr>
+                        <td>Dispersão</td>
+                        <td>Sem efeitos</td>
+                    </tr>
+                    <tr>
+                        <td>Queda</td>
+                        <td>-2 Graça</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="turno" class="regra">
+                <h2>Estrutura do Turno</h2>
+                <ol>
+                    <li>Comprar carta</li>
+                    <li>Resolver efeitos</li>
+                    <li>Atualizar durações</li>
+                    <li>Executar UMA ação principal</li>
+                </ol>
+            </div>
+            <div id="arremetida" class="regra">
+                <h2>Arremetida</h2>
+                <p>
+                    Compare o TMN do atacante com a FOR do defensor.
+                </p>
+                <ul>
+                    <li>TMN ≥ FOR → defensor é removido.</li>
+                    <li>TMN > FOR → diferença causa dano excedente.</li>
+                    <li>TMN < FOR → defensor permanece e perde FOR.</li>
+                </ul>
+            </div>
+            <div id="missoesregra" class="regra">
+                <h2>Missões</h2>
+                <ul>
+                    <li>3 Missões ficam abertas.</li>
+                    <li>Após completar, revele outra.</li>
+                    <li>Podem ser Universais ou de Ordem.</li>
+                    <li>Caso sejam de Ordem, devem ser completadas com pelo menos um personagem da respectiva ordem em campo.</li>
+                </ul>
+            </div>
+            <div id="vitoria" class="regra">
+                <h2>Vitória</h2>
+                <ul>
+                    <li>Complete 3 Missões.</li>
+                    <li>ou</li>
+                    <li>Zere a Graça do adversário.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="modal">
+    <span id="close">✕</span>
+    <button id="prev">◄</button>
+    <img id="bigCard">
+    <div class="info">
+        <h2 id="nomeCarta"></h2>
+        <p class="subtitulo"><span id="ordemCarta"></span> • <span id="raridadeCarta"></span></p>
+        <h3>História</h3>
+        <p id="historiaCarta"></p>
+        <h3>Representação da habilidade</h3>
+        <p id="representacaoCarta"></p>
+    </div>
+    <button id="next">►</button>
+</div>
+
+<script src="JS/personagens.js"></script>
+<script src="JS/virtudes.js"></script>
+<script src="JS/acoes.js"></script>
+<script src="JS/missoes.js"></script>
+<script src="JS/decks.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
