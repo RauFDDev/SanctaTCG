@@ -91,6 +91,26 @@ const personagens=[
 },
 
 {
+    nome:"Teresa de Calcutá",
+    tipo:"personagem",
+    ordem:"Intercessores",
+    raridade:"★★★★★",
+    historia:"Nascida em Skopje com o nome de Anjezë Gonxhe Bojaxhiu, ingressou na vida religiosa ainda jovem e foi enviada à Índia. Após sentir um profundo chamado para servir os mais pobres entre os pobres, fundou as Missionárias da Caridade em Calcutá. Dedicou sua vida aos doentes, órfãos, moribundos e abandonados, reconhecendo em cada pessoa necessitada a presença do próprio Cristo.",
+    representacao:"Sua missão consistia em aliviar o sofrimento humano. Cada ato de ajuda restaurava a esperança dos mais necessitados, fortalecendo-os física e espiritualmente.",
+    imagem:"cartas/personagens/010-Len_TeresaCau.png",
+},
+
+{
+    nome:"Pio de Pietrelcina",
+    tipo:"personagem",
+    ordem:"Intercessores",
+    raridade:"★★★★★",
+    historia:"Frade capuchinho italiano, tornou-se conhecido pelos estigmas da Paixão de Cristo, que carregou durante cinquenta anos. Dedicou incontáveis horas à oração, à celebração da Eucaristia e ao sacramento da confissão, conduzindo milhares de pessoas à conversão. Sua profunda união com Deus fez dele um dos maiores testemunhos de santidade do século XX.",
+    representacao:"Sua vida de oração produzia graças continuamente. Sua intercessão fortalece os aliados e purifica suas fraquezas ao longo de toda a batalha.",
+    imagem:"cartas/personagens/011-Len_PadrePio.png",
+},
+
+{
     nome:"Nossa Senhora das Brotas",
     tipo:"personagem",
     ordem:"Defensores",
@@ -171,6 +191,26 @@ const personagens=[
 },
 
 {
+    nome:"Nossa Senhora Aparecida",
+    tipo:"personagem",
+    ordem:"Defensores",
+    raridade:"★★★★★",
+    historia:"Em 1717, pescadores encontraram nas águas do rio Paraíba do Sul a imagem de Nossa Senhora em duas partes. Após o encontro, a pesca tornou-se extraordinariamente abundante, dando origem a uma devoção que rapidamente se espalhou pelo Brasil. Proclamada Padroeira do país, é sinal da proteção maternal de Maria sobre o povo brasileiro.",
+    representacao:"Como Mãe e Padroeira do Brasil, estende seu manto sobre todos os fiéis, protegendo-os dos perigos e sustentando-os diante das maiores dificuldades.",
+    imagem:"cartas/personagens/020-Len_Aparecida.png",
+},
+
+{
+    nome:"José de Nazaré",
+    tipo:"personagem",
+    ordem:"Defensores",
+    raridade:"★★★★★",
+    historia:"Descendente da casa de Davi, foi escolhido por Deus para ser esposo da Virgem Maria e pai adotivo de Jesus Cristo. Obedeceu prontamente às inspirações divinas, protegendo a Sagrada Família durante a fuga para o Egito e conduzindo-a com humildade e firmeza. A tradição cristã o venera como poderoso defensor da Igreja contra as forças do mal.",
+    representacao:"Sua perfeita obediência a Deus fortalece espiritualmente aqueles que estão sob sua proteção, tornando-os mais firmes diante das tentações e investidas do inimigo.",
+    imagem:"cartas/personagens/021-Len_Jose.png",
+},
+
+{
     nome:"João Paulo II",
     tipo:"personagem",
     ordem:"Missionários",
@@ -211,6 +251,26 @@ const personagens=[
 },
 
 {
+    nome:"Joana d'Arc",
+    tipo:"personagem",
+    ordem:"Missionários",
+    raridade:"★★★★★",
+    historia:"Camponesa francesa, afirmou receber orientações de São Miguel Arcanjo, Santa Catarina de Alexandria e Santa Margarida. Liderou o exército francês durante a Guerra dos Cem Anos, contribuindo para a libertação de Orléans. Capturada pelos inimigos, foi condenada injustamente à fogueira aos dezenove anos, permanecendo fiel a Cristo até sua morte.",
+    representacao:"Seu testemunho de coragem continuou inspirando seus companheiros mesmo após o martírio, fortalecendo aqueles que permaneciam na missão.",
+    imagem:"cartas/personagens/026-Len_Joana.png",
+},
+
+{
+    nome:"Miguel Arcanjo",
+    tipo:"personagem",
+    ordem:"Missionários",
+    raridade:"★★★★★",
+    historia:"Nas Sagradas Escrituras, São Miguel aparece como o grande comandante dos exércitos celestes. No Apocalipse, lidera os anjos fiéis na vitória sobre o Dragão e seus seguidores, tornando-se símbolo da justiça divina e da proteção dos fiéis contra o mal. A Igreja o invoca como poderoso defensor em todos os combates espirituais.",
+    representacao:"Sua presença domina imediatamente as forças inimigas e protege os fiéis contra as tentações, conduzindo o exército de Deus à vitória.",
+    imagem:"cartas/personagens/027-Len_Miguel.png",
+},
+
+{
     nome:"Catarina de Alexandria",
     tipo:"personagem",
     ordem:"Guias",
@@ -224,7 +284,7 @@ const personagens=[
     nome:"Inácio de Loyola",
     tipo:"personagem",
     ordem:"Guias",
-    raridade:"★★★",
+    raridade:"★★",
     historia:"Antigo soldado espanhol, converteu-se após uma grave ferida em batalha. Fundou a Companhia de Jesus e escreveu os Exercícios Espirituais, uma das maiores obras de discernimento da tradição cristã. Sua missão foi formar evangelizadores preparados para servir à Igreja com inteligência, disciplina e profunda vida espiritual.",
     representacao:"Seu método de discernimento fortalecia a preparação dos missionários. Cada missão realizada produzia novos recursos para continuar a evangelização.",
     imagem:"cartas/personagens/029-InacioLoyola.png",
@@ -248,6 +308,26 @@ const personagens=[
     historia:"Sacerdote espanhol, percorreu cidades e povoados pregando o Evangelho e combatendo erros doutrinários com firmeza e caridade. Fundou a Ordem dos Pregadores, conhecida como Ordem Dominicana, dedicada ao estudo, à oração e à evangelização, deixando um legado que permanece vivo na Igreja até hoje.",
     representacao:"Seu zelo pela pregação mantinha os missionários sempre atentos ao próximo passo. Cada missão concluída revelava novas oportunidades de continuar anunciando Cristo.",
     imagem:"cartas/personagens/031-DomingosdeGusmao.png",
+},
+
+{
+    nome:"Agostinho de Hipona",
+    tipo:"personagem",
+    ordem:"Guias",
+    raridade:"★★★★★",
+    historia:"Após anos buscando a verdade em diferentes correntes filosóficas, converteu-se ao cristianismo graças às orações de sua mãe, Santa Mônica, e à pregação de Santo Ambrósio. Tornou-se bispo de Hipona e um dos maiores Doutores da Igreja, influenciando profundamente a teologia cristã com suas obras sobre a graça, a liberdade e o amor de Deus.",
+    representacao:"Seu profundo ensinamento fortalece continuamente a vida espiritual dos fiéis, transformando cada Virtude em fonte de crescimento e renovação.",
+    imagem:"cartas/personagens/032-Len_Agostinho.png",
+},
+
+{
+    nome:"Tomás de Aquino",
+    tipo:"personagem",
+    ordem:"Guias",
+    raridade:"★★★★★",
+    historia:"Dominicano e um dos maiores teólogos da história, dedicou sua vida ao estudo da filosofia e da teologia, mostrando que fé e razão caminham em perfeita harmonia. Sua Suma Teológica tornou-se referência para a doutrina católica, levando-o a ser proclamado Doutor da Igreja e conhecido como Doutor Angélico por sua extraordinária sabedoria.",
+    representacao:"Seu vasto conhecimento permite compreender melhor cada situação, ampliando continuamente os recursos disponíveis para conduzir a missão com sabedoria.",
+    imagem:"cartas/personagens/033-Len_Tomas.png",
 },
 
 {
@@ -314,10 +394,30 @@ const personagens=[
     nome:"Rita de Cássia",
     tipo:"personagem",
     ordem:"Consagrados",
-    raridade:"★★",
+    raridade:"★★★",
     historia:"Esposa, mãe e posteriormente religiosa agostiniana, enfrentou inúmeras provações familiares com paciência e perdão. Após perder o marido e os filhos, consagrou-se inteiramente a Deus. Tornou-se conhecida como a santa das causas impossíveis por sua confiança inabalável na providência divina.",
     representacao:"Sua perseverança diante das maiores dificuldades renovava a esperança dos que permaneciam firmes, fortalecendo espiritualmente os aliados que resistiam às adversidades.",
     imagem:"cartas/personagens/040-RitaCassia.png",
+},
+
+{
+    nome:"Catarina de Sena",
+    tipo:"personagem",
+    ordem:"Consagrados",
+    raridade:"★★★★★",
+    historia:"Mística dominicana, destacou-se por sua intensa vida de oração, cuidado com os enfermos e coragem ao aconselhar governantes e Papas durante um período de profundas crises na Igreja. Seus escritos e cartas exerceram enorme influência espiritual, levando-a a ser proclamada Doutora da Igreja e padroeira da Europa.",
+    representacao:"Sua palavra fortalecia todos ao seu redor. Cada bênção concedida espalhava-se para outros fiéis, multiplicando os frutos da graça e da perseverança.",
+    imagem:"cartas/personagens/041-Len_CatarinaSena.png",
+},
+
+{
+    nome:"Nossa Senhora do Rosário de Fátima",
+    tipo:"personagem",
+    ordem:"Consagrados",
+    raridade:"★★★★★",
+    historia:"Em suas aparições aos pastorinhos de Fátima, convidou a humanidade à oração do Rosário, à penitência e à conversão. Sua última manifestação foi acompanhada pelo Milagre do Sol, testemunhado por milhares de pessoas. Sua mensagem permanece como um chamado constante à confiança em Deus e à perseverança na fé.",
+    representacao:"A oração perseverante fortalece continuamente os fiéis. Enquanto a Virtude permanece viva, todos recebem renovação espiritual para enfrentar os desafios da missão.",
+    imagem:"cartas/personagens/042-Len_RosarioFat.png",
 },
 
 ];
