@@ -1,87 +1,87 @@
 const decks = [
 
 {
-    nome: "Deck Luz da Igreja",
+    nome: "Guardiões da Igreja",
 
     personagens: [
-        "São Francisco de Assis",
-        "São Roque de Montpellier",
-        "Santa Clara de Assis",
-        "São Frei Galvão",
+        "Francisco de Assis",
+        "Francisco de Assis",
+        "Roque de Montpellier",
+        "Clara de Assis",
+        "Clara de Assis",
+        "Frei Galvão",
         "Nossa Senhora das Brotas",
-        "São José de Nazaré",
-        "São Sebastião de Narbona",
-        "São João Paulo II",
-        "Santo Antônio de Pádua",
-        "Santa Catarina de Alexandria",
-        "São Domingos de Gusmão",
-        "São Luiz Gonzaga",
-        "Nossa Senhora do Rosário de Fátima",
-        "Santa Teresa de Ávila",
-        "Santa Rosa de Lima",
-        "Santa Ana"
+        "Nossa Senhora das Brotas",
+        "José de Nazaré",
+        "José de Nazaré",
+        "Imaculada Conceição",
+        "Bento de Núrsia",
+        "Bento de Núrsia",
+        "Sebastião de Narbona",
+        "Teresa de Ávila",
+        "Rosa de Lima"
     ],
 
     acoes:[
-        "Santa Ceia",
         "Batismo",
-        "Multiplicação dos Pães",
+        "Batismo",
+        "Santa Ceia",
+        "Santa Ceia",
         "Bom Samaritano",
-        "Caminho de Emaús",
-        "Sermão da Montanha",
-        "Transfiguração",
-        "Pentecostes"
+        "Bom Samaritano",
+        "Confissão Sacramental",
+        "Multiplicação dos Pães"
     ],
 
     virtudes:[
-        "Fé",
         "Caridade",
-        "Prudência",
+        "Caridade",
         "Fortaleza",
-        "Misericórdia",
-        "Pureza de Coração"
+        "Fortaleza",
+        "Prudência",
+        "Esperança"
     ]
 },
 
 {
-    nome:"Deck Testemunhas do Evangelho",
+    nome:"Missionários do Reino",
 
     personagens:[
-        "São Geraldo Majella",
+        "João Paulo II",
+        "João Paulo II",
+        "Miguel Arcanjo",
+        "Miguel Arcanjo",
+        "Antônio de Pádua",
+        "Antônio de Pádua",
+        "Paulo Apóstolo",
+        "Paulo Apóstolo",
+        "Catarina de Alexandria",
+        "Inácio de Loyola",
+        "Tomás de Aquino",
+        "Tomás de Aquino",
+        "Domingos de Gusmão",
+        "Dulce dos Pobres",
         "Nossa Senhora Rosa Mística",
-        "Santa Dulce dos Pobres",
-        "Madre Rossello",
-        "Santa Rita de Cássia",
-        "Nossa Senhora da Penha",
-        "Imaculada Conceição",
-        "São Pedro Apóstolo",
-        "São Bento de Núrsia",
-        "São Miguel Arcanjo",
-        "São Paulo Apóstolo",
-        "Santo Agostinho de Hipona",
-        "São Tomás de Aquino",
-        "Santa Eustáquia Esmeralda",
-        "Santa Teresinha de Lisieux",
-        "São Pio de Pietrelcina"
+        "Padre Pio de Pietrelcina"
     ],
 
     acoes:[
-        "Confissão Sacramental",
-        "Unção dos Enfermos",
-        "Milagre da Cura",
-        "Autoridade Apostólica",
+        "Pentecostes",
+        "Pentecostes",
+        "Ressurreição",
+        "Ressurreição",
         "Chamado dos Apóstolos",
-        "Jejum no Deserto",
-        "Oração no Getsêmani",
-        "Ressurreição"
+        "Chamado dos Apóstolos",
+        "Autoridade Apostólica",
+        "Transfiguração"
     ],
 
     virtudes:[
-        "Esperança",
+        "Fé",
+        "Fé",
         "Justiça",
-        "Temperança",
-        "Humildade",
-        "Paciência",
+        "Justiça",
+        "Pureza de Coração",
         "Obediência"
     ]
 }
