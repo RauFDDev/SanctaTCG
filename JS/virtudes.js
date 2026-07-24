@@ -89,7 +89,7 @@ lore:"A obediência da fé conduz o discípulo a conformar livremente sua vontad
 },
 
 {
-nome:"Pureza de Coração",
+nome:"Pureza",
 tipo:"virtude",
 categoria:"Espirituais",
 imagem:"cartas/virtudes/V012-Pureza.png",
