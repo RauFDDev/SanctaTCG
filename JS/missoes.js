@@ -120,44 +120,4 @@ imagem:"cartas/missoes/M015-ForçaInterior.png",
 lore:"A verdadeira força nasce da união da alma com Deus e não apenas do apoio humano"
 },
 
-{
-nome:"Consolação",
-tipo:"missao",
-dificuldade:"Cure ou remova efeitos negativos 5 vezes",
-imagem:"cartas/missoes/M016-Consolação.png",
-lore:"A misericórdia de Deus alcança os que sofrem e restaura os corações feridos"
-},
-
-{
-nome:"Muralha da Fé",
-tipo:"missao",
-dificuldade:"Termine 3 turnos com um personagem de FOR 8 ou mais em campo",
-imagem:"cartas/missoes/M017-MuralhaFe.png",
-lore:"A firmeza da fé sustenta a Igreja diante das provações e das tempestades do mundo"
-},
-
-{
-nome:"Grande Comissão",
-tipo:"missao",
-dificuldade:"Aplique efeitos negativos em 4 personagens diferentes",
-imagem:"cartas/missoes/M018-GrandeComissao.png",
-lore:"Ide por todo o mundo e anunciai o Evangelho a toda criatura"
-},
-
-{
-nome:"Discernimento",
-tipo:"missao",
-dificuldade:"Compre 4 cartas e conclua uma Missão",
-imagem:"cartas/missoes/M019-Discernimento.png",
-lore:"O discernimento permite reconhecer a vontade de Deus e escolher o caminho do bem"
-},
-
-{
-nome:"Caminho da Virtude",
-tipo:"missao",
-dificuldade:"Conceda 5 efeitos positivos durante a partida",
-imagem:"cartas/missoes/M020-CaminhoVirtude.png",
-lore:"As virtudes aperfeiçoam a alma e conduzem o homem à plenitude da vida em Deus."
-},
-
 ];
